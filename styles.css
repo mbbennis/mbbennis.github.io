@@ -1,0 +1,11 @@
+body {
+  font-family: 'PT Mono', monospace;
+}
+.main {
+  max-width: 800px;
+}
+.main img {
+  max-width: 250px;
+  margin: auto;
+  display: block;
+}
