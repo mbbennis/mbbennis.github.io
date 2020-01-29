@@ -1,0 +1,52 @@
+body {
+    background-color: #F8F8F8;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 20px;
+    margin-left: 10%;
+    max-width: 800px;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+h1 {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+div {
+    margin-bottom: 40px;
+}
+
+img {
+    float: right;
+    width: 300px;
+    margin: 50px 10px 100px 10px;
+    display: block;
+}
+
+a:hover {
+    opacity: 0.35;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sas {
+    color: #0074BE;
+}
+
+.ncsu {
+    color: #CC0000;
+}
+
+@media (max-width: 600px) {
+  div {
+    margin-bottom: 20px;
+  }
+  img {
+    width: 100%;
+    margin: 10px;
+  }
+}
